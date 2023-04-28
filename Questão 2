@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int A[6];
+    int i;
+
+    printf("Digite 6 valores: ");
+
+    
+    for (i = 0; i < 6; i++) {
+        scanf("%i", &A[i]);
+    }
+  printf ("Os valores são:\n");
+
+  
+    for (i = 0; i < 6; i++) {
+        printf("%i\n", A[i]);
+    }
+
+    return 0;
+}
