@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int v[8];
+    int x, y;
+
+    
+    printf("Digite 8 valores:\n");
+    for (int i = 0; i < 8; i++) {
+        scanf("%i", &v[i]);
+    }
+
+    printf("Digite as posições X e Y:\n");
+    scanf("%i %i", &x, &y);
+
+  
+    int soma = v[x] + v[y];
+    
+    printf("A soma dos valores nas posições %i e %i é: %i\n", x, y, soma);
+
+    return 0;
+}
